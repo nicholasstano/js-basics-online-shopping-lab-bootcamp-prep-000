@@ -1,6 +1,33 @@
 var cart = [];
 
-function getCart() {
+function addToCart(item) {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function getCart() {
  return cart;
 }
 
@@ -92,3 +119,38 @@ function removeItemFromCart(itemToRemove) {
   
   getCart().splice(indexOfItemToRemove,1)
 }
+
+var cart = [];
+
+function getCart() {
+ return cart;
+}
+
+function setCart(c) {
+  cart = c;
+  return cart;
+}
+
+function addToCart(item) {
+  var item = generateCartItem(item)
+  getCart().push(item)
+  return `${item.itemName} has been added to your cart.`
+}
+
+function viewCart() {
+  return getCart().length === 0
+    return "Your shopping cart is empty."
+  }
+
+function total() {
+  // write your code here
+}
+
+function removeFromCart(item) {
+  // write your code here
+}
+
+function placeOrder(cardNumber) {
+  // write your code here
+}
+*/
