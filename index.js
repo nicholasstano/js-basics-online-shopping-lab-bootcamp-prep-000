@@ -2,6 +2,7 @@ var cart = [];
 
 function addToCart(item) {
   var itemz = new Object({itemName: items}, {itemPrice: price})
+  
 }
 
 function setCart() {
