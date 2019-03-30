@@ -4,6 +4,9 @@ function addToCart(item) {
   
 }
 
+function setCart() {
+  
+}
 
 
 
